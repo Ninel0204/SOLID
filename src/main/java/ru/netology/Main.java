@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
-    public static Map<String, Integer> products = new HashMap<>();
+    public static HashMap<String, Integer> products = new HashMap<>();
     public static void main(String[] args) {
 
         products.put("Хлеб", 56);
